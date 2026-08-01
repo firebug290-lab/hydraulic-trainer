@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Fire Hydraulics — Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;background:#0e0d0b;color:#e8e3d8;font-family:Barlow,sans-serif;min-height:100vh}
+  a{color:#ff7a6e;text-decoration:none}
+  a:hover{color:#ff9c92}
+  .tile{transition:border-color .15s,background .15s,transform .15s}
+  .tile:hover{border-color:#ff4433 !important;background:#1b1813 !important;transform:translateY(-2px)}
+  .mono{font-family:'IBM Plex Mono',monospace}
+</style>
+</head>
+<body>
+<main style="max-width:1040px;margin:0 auto;padding:56px 28px 80px;">
+
+  <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:36px;">
+    <div>
+      <div style="display:flex;align-items:center;gap:14px;">
+        <div style="width:8px;height:38px;border-radius:4px;background:#ff4433;"></div>
+        <h1 style="margin:0;font-family:Oswald,sans-serif;font-weight:700;font-size:40px;letter-spacing:0.06em;text-transform:uppercase;line-height:1;">Fire Hydraulics</h1>
+      </div>
+      <p style="margin:12px 0 0 22px;font-size:16px;color:#8f8a7e;max-width:56ch;text-wrap:pretty;">Pump calculations and driver-operator training, set to your department's standards.</p>
+    </div>
+    <a class="tile" href="Hydraulics Trainer.dc.html" style="background:#ff4433;border:1.5px solid #ff4433;border-radius:12px;padding:14px 22px;color:#fff;font-family:Oswald,sans-serif;font-weight:600;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;">Open the app</a>
+  </div>
+
+  <div class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#6d6860;margin-bottom:12px;">Calculators</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-bottom:36px;">
+
+    <a class="tile" href="Hydraulics Trainer.dc.html#pdp" style="display:flex;flex-direction:column;gap:8px;background:#161410;border:1px solid #2a2721;border-radius:14px;padding:20px;color:inherit;">
+      <div class="mono" style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#ff7a6e;">01</div>
+      <div style="font-family:Oswald,sans-serif;font-weight:600;font-size:20px;letter-spacing:0.04em;text-transform:uppercase;">PDP Solver</div>
+      <div style="font-size:13.5px;line-height:1.5;color:#a39d90;">Single line: NP + friction loss + elevation + appliances.</div>
+    </a>
+
+    <a class="tile" href="Hydraulics Trainer.dc.html#panel" style="display:flex;flex-direction:column;gap:8px;background:#161410;border:1px solid #2a2721;border-radius:14px;padding:20px;color:inherit;">
+      <div class="mono" style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#ff7a6e;">02</div>
+      <div style="font-family:Oswald,sans-serif;font-weight:600;font-size:20px;letter-spacing:0.04em;text-transform:uppercase;">Pump Panel</div>
+      <div style="font-size:13.5px;line-height:1.5;color:#a39d90;">Multiple lines side by side with total flow and gate settings.</div>
+    </a>
+
+    <a class="tile" href="Hydraulics Trainer.dc.html#nozzle" style="display:flex;flex-direction:column;gap:8px;background:#161410;border:1px solid #2a2721;border-radius:14px;padding:20px;color:inherit;">
+      <div class="mono" style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#ff7a6e;">03</div>
+      <div style="font-family:Oswald,sans-serif;font-weight:600;font-size:20px;letter-spacing:0.04em;text-transform:uppercase;">Smooth Bore</div>
+      <div style="font-size:13.5px;line-height:1.5;color:#a39d90;">Tip flow and nozzle reaction, handline or master stream.</div>
+    </a>
+
+    <a class="tile" href="Hydraulics Trainer.dc.html#friction" style="display:flex;flex-direction:column;gap:8px;background:#161410;border:1px solid #2a2721;border-radius:14px;padding:20px;color:inherit;">
+      <div class="mono" style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#ff7a6e;">04</div>
+      <div style="font-family:Oswald,sans-serif;font-weight:600;font-size:20px;letter-spacing:0.04em;text-transform:uppercase;">Friction Loss</div>
+      <div style="font-size:13.5px;line-height:1.5;color:#a39d90;">Loss per 100 ft by hose size, flow and lay length.</div>
+    </a>
+
+    <a class="tile" href="Hydraulics Trainer.dc.html#relay" style="display:flex;flex-direction:column;gap:8px;background:#161410;border:1px solid #2a2721;border-radius:14px;padding:20px;color:inherit;">
+      <div class="mono" style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#ff7a6e;">05</div>
+      <div style="font-family:Oswald,sans-serif;font-weight:600;font-size:20px;letter-spacing:0.04em;text-transform:uppercase;">Relay Pumping</div>
+      <div style="font-size:13.5px;line-height:1.5;color:#a39d90;">Supply line pressure and spacing between engines.</div>
+    </a>
+
+    <a class="tile" href="Hydraulics Trainer.dc.html#drafting" style="display:flex;flex-direction:column;gap:8px;background:#161410;border:1px solid #2a2721;border-radius:14px;padding:20px;color:inherit;">
+      <div class="mono" style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#ff7a6e;">06</div>
+      <div style="font-family:Oswald,sans-serif;font-weight:600;font-size:20px;letter-spacing:0.04em;text-transform:uppercase;">Drafting</div>
+      <div style="font-size:13.5px;line-height:1.5;color:#a39d90;">Lift, hose size and rated capacity from a static source.</div>
+    </a>
+
+  </div>
+
+  <div class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#6d6860;margin-bottom:12px;">Training &amp; setup</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;">
+
+    <a class="tile" href="Hydraulics Trainer.dc.html#cards" style="display:flex;flex-direction:column;gap:8px;background:#161410;border:1px solid #2a2721;border-radius:14px;padding:20px;color:inherit;">
+      <div class="mono" style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#37d67a;">Drill</div>
+      <div style="font-family:Oswald,sans-serif;font-weight:600;font-size:20px;letter-spacing:0.04em;text-transform:uppercase;">Flashcards</div>
+      <div style="font-size:13.5px;line-height:1.5;color:#a39d90;">Coefficients, formulas and fireground numbers, shuffled.</div>
+    </a>
+
+    <a class="tile" href="Hydraulics Trainer.dc.html#quiz" style="display:flex;flex-direction:column;gap:8px;background:#161410;border:1px solid #2a2721;border-radius:14px;padding:20px;color:inherit;">
+      <div class="mono" style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#37d67a;">Drill</div>
+      <div style="font-family:Oswald,sans-serif;font-weight:600;font-size:20px;letter-spacing:0.04em;text-transform:uppercase;">Quiz</div>
+      <div style="font-size:13.5px;line-height:1.5;color:#a39d90;">Timed questions with scoring by topic and a missed-question review.</div>
+    </a>
+
+    <a class="tile" href="Hydraulics Trainer.dc.html#reference" style="display:flex;flex-direction:column;gap:8px;background:#161410;border:1px solid #2a2721;border-radius:14px;padding:20px;color:inherit;">
+      <div class="mono" style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#ffb347;">Setup</div>
+      <div style="font-family:Oswald,sans-serif;font-weight:600;font-size:20px;letter-spacing:0.04em;text-transform:uppercase;">Dept Standards</div>
+      <div style="font-size:13.5px;line-height:1.5;color:#a39d90;">Edit friction coefficients, target GPM per line, and nozzle pressures — saved on this device.</div>
+    </a>
+
+  </div>
+
+  <div style="margin-top:40px;padding-top:20px;border-top:1px solid #2a2721;display:flex;flex-wrap:wrap;gap:18px;align-items:center;" class="mono">
+    <span style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#6d6860;">Also here</span>
+    <a href="index.html" style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;">Fire Ops Suite home</a>
+    <a href="FireScheduler v3.dc.html" style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;">Fire Shift Sync</a>
+  </div>
+
+</main>
+</body>
+</html>
